@@ -1,0 +1,10 @@
+.header-container {
+  display: flex;
+  width: 100%;
+}
+
+.cat-header {
+  flex: 1;
+  padding: 20px;
+  text-align:center;
+}
