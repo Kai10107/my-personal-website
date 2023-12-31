@@ -1,7 +1,26 @@
-.Top-container {
+.main-container {
+  position: relative;
+  width: calc(100% - 400px); 
+  margin: 0 auto; 
+}
+
+.top-header {
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+}
+
+.header-middle {
+  background-color: #4c4686;
+  text-align: center;
+}
+
+
+.middle-container {
   display: block;
   background: #e3e3e6;
   text-align:center
+  
 }
 
 .outer-container {
@@ -27,4 +46,8 @@
 .merlin-content {
   background-color: #4c4686;
   color: white;
+}
+
+body {
+  background-color: #171718; 
 }
