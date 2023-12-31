@@ -1,10 +1,30 @@
-.header-container {
+.Top-container {
+  display: block;
+  background: #e3e3e6;
+  text-align:center
+}
+
+.outer-container {
   display: flex;
   width: 100%;
 }
+.background {
+  width: 200px; 
+  background-color: #171718; 
+  height: 1500px;
+}
 
-.cat-header {
-  flex: 1;
+.content {
+  flex-grow: 1;
   padding: 20px;
-  text-align:center;
+  text-align: center;
+}
+
+.jasper-content {
+ background-color: #5b539e;
+}
+
+.merlin-content {
+  background-color: #4c4686;
+  color: white;
 }
