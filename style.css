@@ -1,6 +1,7 @@
 body {
   display: block;
   margin: 8px;
+  background-image: url(https://t4.ftcdn.net/jpg/03/54/69/67/360_F_354696735_wXsTTL8T7IRtisCJwrHk5eQ7P5BtMTQ8.jpg)
 }
 
 header {
@@ -13,7 +14,9 @@ header, nav, section, article, footer {
   padding: 20px;
   margin: 10px 0;
   background: #3232;
-  border: 1px solid #ccc;
+  background-color: rgba(161, 46, 46, 0.9);
+  border: 5px solid #131212;
+  
 }
 
 article {
@@ -36,3 +39,4 @@ footer {
   display: block;
   text-align: center;
 }
+
