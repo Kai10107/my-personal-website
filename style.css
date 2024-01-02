@@ -8,13 +8,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
+  
+ 
 }
 
 header, nav, section, article, footer {
   padding: 20px;
   margin: 10px 0;
   background: #3232;
-  background-color: rgba(161, 46, 46, 0.9);
+  background-color: rgba(34, 33, 33, 0.9);
   border: 5px solid #131212;
   
 }
@@ -39,4 +42,5 @@ footer {
   display: block;
   text-align: center;
 }
+
 
