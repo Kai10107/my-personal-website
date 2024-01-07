@@ -3,9 +3,11 @@
 <head>
   <link rel="stylesheet" href="style.css" />
 <title>My Personal Website</title>
+
 </head>
+
 <body>
-<script src="script.js"></script>
+  
 
 <div class="container">
  <header>
@@ -28,30 +30,25 @@
 Header/Banner</div>
   </section>
 
-  <section class="marble-info">
-    <img class="marblejar" src="/images/IMG_0234.jpg" alt="Jar Of Marbles">
 
-
+<section class="marble-info">
+ <img class="marblejar" src="/images/IMG_0234.jpg" alt="Jar Of Marbles">
   <article class="game-rules">
       <h1>The Game</h1>
       <p> Can you guess how many marbles are in the jar?</p>
-      <form id="guess-form">
+    <form id="guess-form">
         <input type="number" id="guess" name="guess" min="1" required>
-        <button type="sumbit">Sumbit Guess</button>
-    </article>
-    <img class="marblejar" src="/images/IMG_0288.jpg" alt="Jar Of Marbles">
-    
- 
+        <button type="submit">Sumbit Guess</button>
+    </form>
+   <div id="result"></div>
+  </article>
+ <img class="marblejar" src="/images/IMG_0288.jpg" alt="Jar Of Marbles">
+</section>
 
-    </section>
 
-    <section>
-
-    </section>
 <footer>Footer</footer>
 
-<div class="background right-border"></div>
-</div>
+<script src="script.js"></script>
 </body>
 
 </html>

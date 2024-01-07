@@ -67,6 +67,14 @@ footer {
     max-width: 100%;
     margin: 15px;
     cursor: pointer;
-
 }
 
+#guess-form {
+margin-top: 25px;
+}
+
+#guess-form input, #guess-form button {
+font-size: 20px;
+margin: 5px;
+padding: 10px;
+}
