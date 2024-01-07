@@ -1,19 +1,19 @@
 document.getElementById("guess-form").onsubmit = function(event) {
   event.preventDefault();
 
-const actualMarbles = 100;
-let userGuess = document.getElementById("guess").value;
-userGuess = parseInt(userGuess);
+  const actualMarbles = 407;
+  let userGuess = document.getElementById("guess").value;
+  userGuess = parseInt(userGuess);
 
-let difference = Math.abs(actualMarbles - userGuess);
-let resultText = `You guessed ${userGuess}. `;
-if (difference === 0) {
-  resultText += "That's exactly right!";
-} else {
-  resultText += `You were off by ${difference} marbles.`;
-}
+  
+  let resultText = `You guessed ${userGuess}. `;
+  if (userGuess === actualMarbles) {
+      resultText += "That's exactly right!";
+  } else if (userGuess > actualMarbles) {
+      resultText += "That's too high. Try guessing lower.";
+  } else {
+      resultText += "That's too low. Try guessing higher.";
+  }
 
-document.getElementById("result").innerText = resultText;
+  document.getElementById("result").innerText = resultText;
 };
-
-
