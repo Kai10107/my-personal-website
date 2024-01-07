@@ -1,7 +1,10 @@
 body {
   display: block;
   margin: 8px;
-  background-image: url(https://t4.ftcdn.net/jpg/03/54/69/67/360_F_354696735_wXsTTL8T7IRtisCJwrHk5eQ7P5BtMTQ8.jpg)
+  background-image: url(images/marblewallpaper2.png);
+  background-repeat: no-repeat;
+  background-size: 1950px 1000px;
+
 }
 
 header {
@@ -25,6 +28,8 @@ header, nav, section, article, footer {
 article {
   width: 47%;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -43,4 +48,25 @@ footer {
   text-align: center;
 }
 
+
+.Cat-info {
+
+
+}
+
+
+
+.game-rules {
+  color: rgb(255, 255, 255);
+  background-color: rgb(38, 39, 39);
+}
+
+.marblejar {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    cursor: pointer;
+
+}
 
