@@ -16,12 +16,15 @@ header {
  
 }
 
+
+
 header, nav, section, article, footer {
   padding: 20px;
   margin: 10px 0;
   background: #3232;
   background-color: rgba(34, 33, 33, 0.9);
   border: 5px solid #131212;
+  
   
 }
 
@@ -36,6 +39,7 @@ article {
 section {
  display: flex;
  justify-content: space-between;
+ 
 
 }
 
@@ -47,13 +51,6 @@ footer {
   display: block;
   text-align: center;
 }
-
-
-.Cat-info {
-
-
-}
-
 
 
 .game-rules {
@@ -78,3 +75,12 @@ font-size: 20px;
 margin: 5px;
 padding: 10px;
 }
+
+
+.header-banner {
+  font-size: 36px;
+ color: white;
+ 
+}
+
+
