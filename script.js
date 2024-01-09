@@ -20,7 +20,7 @@ document.getElementById("guess-form").onsubmit = function(event) {
 
 
 
-document.getElementById("game-results").innerText = `Congratulations!`;
+document.getElementById("game-results").innerText = `Leaderboard Results!`; 
   } else if (userGuess > actualMarbles) {
       resultText += "That's too high. Try guessing lower.";
   } else {
