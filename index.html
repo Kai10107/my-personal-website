@@ -11,7 +11,7 @@
 
 <div class="container">
  <header>
-  <div><img src="images/Untidtled.png" alt="logo to be put here"></div>
+  <div><img src="images/Marbles/Untidtled.png" alt="logo to be put here"></div>
   
   <nav>
     <ul>
@@ -23,36 +23,50 @@
   </nav>
  </header>
 
- <section id="header-section">
-<div class="header-banner"><div>
-  <a>CAN YOU GUESS HOW MANY MARBLES ARE IN THE JAR?</a>
 
-  </section>
+    <section id="header-section">
+      <div class="header-banner"><div>
+        <a>CAN YOU GUESS HOW MANY MARBLES ARE IN THE JAR?</a>
+      
+        </section>
+    </section>
 
 
 <section class="marble-info">
- <img class="marblejar" src="/images/IMG_0234.jpg" alt="Jar Of Marbles">
+ <img class="marblejar" src="/images/Marbles/IMG_0234.jpg" alt="Jar Of Marbles">
   <article class="game-rules">
       <h1>The Game</h1>
       <p> Can you guess how many marbles are in the jar?</p>
+   
     <form id="guess-form">
         <input type="number" id="guess" name="guess" min="1" required>
         <button type="submit">Sumbit Guess</button>
     </form>
     <div id="attempts-display"></div>
    <div id="result"></div>
+ 
   </article>
- <img class="marblejar" src="/images/IMG_0288.jpg" alt="Jar Of Marbles">
+ <img class="marblejar" src="/images/Marbles/IMG_0288.jpg" alt="Jar Of Marbles">
+ 
 </section>
 
-<section id="results-section" style="display: none;">
-<h2>Game Results</h2>
-<div id="game-results"></div>
+<section>
+<section id="leaderboard" style="display: block;">
+  
+  <span class="position">Place</span>
+  <img class="profile" src="https://ca.slack-edge.com/T068TEAGNTT-U068F11FUE7-gf27936aa56c-192" alt="profile-picture">
+  <span class="name">Name</span> 
+  <span class="score">Score</span> 
+
 </section>
+</section>
+<div id="game-results"></div>
 
 
 
 <footer>Footer</footer>
+
+
 
 <script src="script.js"></script>
 </body>
