@@ -138,3 +138,30 @@ text-align: center;
 .logo-image {
   cursor: pointer; 
 }
+
+
+nav ul li a {
+  color: #faf9f9; 
+  transition: all 0.3s ease;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex; 
+  
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
